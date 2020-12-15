@@ -1,0 +1,23 @@
+{
+  "name": "crbd-webppl",
+  "version": "0.0.1",
+  "description": "Probabilistic programme to use a constant rate birth death model on a given phylogenetic tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtklein/crbd-webppl.git"
+  },
+  "keywords": [
+    "WebPPL",
+    "CRBD"
+  ],
+  "author": "Johannes Klein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtklein/crbd-webppl/issues"
+  },
+  "homepage": "https://github.com/jtklein/crbd-webppl#readme"
+}
