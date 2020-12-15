@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jtklein/crbd-webppl/issues"
   },
-  "homepage": "https://github.com/jtklein/crbd-webppl#readme"
+  "homepage": "https://github.com/jtklein/crbd-webppl#readme",
+  "dependencies": {
+    "webppl": "^0.9.15"
+  }
 }
