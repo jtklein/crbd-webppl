@@ -4,7 +4,7 @@
   "description": "Probabilistic programme to use a constant rate birth death model on a given phylogenetic tree",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webppl crbd.wppl --require phyjs",
   },
   "repository": {
     "type": "git",
