@@ -4,7 +4,7 @@
   "description": "Probabilistic programme to use a constant rate birth death model on a given phylogenetic tree",
   "main": "index.js",
   "scripts": {
-    "start": "yarn webppl crbd.js --require . --require phyjs --require webppl-json",
+    "start": "yarn webppl crbd-analytical.js --require . --require phyjs --require webppl-json",
   },
   "repository": {
     "type": "git",

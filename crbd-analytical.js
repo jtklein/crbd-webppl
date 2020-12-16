@@ -25,19 +25,19 @@ var muExtractor = function (x) {
 };
 var mus = map(muExtractor, dist.samples);
 
-display('lambda computed mean');
-display(listMean(lambdas));
-display('lambda computed variance');
-display(listVar(lambdas));
-display('lambda computed standard deviation');
-display(listStdev(lambdas));
-
-display('mu computed mean');
-display(listMean(mus));
-display('mu computed variance');
-display(listVar(mus));
-display('mu computed standard deviation');
-display(listStdev(mus));
+var displayValues = function (array) {
+  display('computed mean');
+  display(listMean(array));
+  display('computed variance');
+  display(listVar(array));
+  display('computed standard deviation');
+  display(listStdev(array));
+  display('');
+}
+display('lambda:')
+displayValues(lambdas);
+display('mu:');
+displayValues(mus);
 
 // Write data:
 json.write('calc.json', dist.samples);
