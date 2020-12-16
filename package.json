@@ -1,6 +1,6 @@
 {
   "name": "crbd-webppl",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Probabilistic programme to use a constant rate birth death model on a given phylogenetic tree",
   "main": "index.js",
   "scripts": {
