@@ -2,14 +2,19 @@
 Probabilistic programme to calculate speciation and extinction rate using a constant rate birth death model on a given phylogenetic tree
 
 # To calculate
-To calculate the parameters with a quick analytical approach:
+To start the calculation of the parameters with a quick analytical approach:
 ```
 yarn start
 ```
 
-To calculate the parameters with a more exhaustive simulation approach:
+To start the calculate of the parameters with a more exhaustive simulation approach:
 ```
 yarn start-sim
+```
+
+Show a rough histogram of the samples (requires global python3 and bashplotlib)
+```
+yarn distribution
 ```
 
 # CRBD model from
