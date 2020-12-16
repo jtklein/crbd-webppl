@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn webppl crbd-analytical.js --require . --require phyjs --require webppl-json",
+    "start-sim": "yarn webppl crbd-sim.js --require . --require phyjs --require webppl-json",
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   },
   "webppl": {
     "wppl": [
+      "models/crbd.wppl",
       "models/crbd-analytical-complete-sampling.wppl"
     ]
   },
