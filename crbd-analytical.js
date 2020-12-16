@@ -30,12 +30,12 @@ display(dist);
 var lambdaExtractor = function (x) {
   return x.value[0];
 };
-var lambdas = map(lambdaExtractor, dist.samples);
+var lambdaSamples = map(lambdaExtractor, dist.samples);
 
 var muExtractor = function (x) {
   return x.value[1];
 };
-var mus = map(muExtractor, dist.samples);
+var muSamples = map(muExtractor, dist.samples);
 
 var displayValues = function (array) {
   display('computed mean');
@@ -47,9 +47,9 @@ var displayValues = function (array) {
   display('');
 }
 display('lambda:')
-displayValues(lambdas);
+displayValues(lambdaSamples);
 display('mu:');
-displayValues(mus);
+displayValues(muSamples);
 
 // Write data:
 json.write('calc.json', dist.samples);
