@@ -14,3 +14,6 @@ var model = function () {
 
 var dist = Infer({ model, method: 'MCMC', samples: 1000, lag: 10, burn: 1000 })
 display(dist)
+
+// Write data:
+json.write('calc.json', dist.getDist())
