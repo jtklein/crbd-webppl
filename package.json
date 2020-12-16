@@ -23,17 +23,16 @@
   "homepage": "https://github.com/jtklein/crbd-webppl#readme",
   "dependencies": {
     "phyjs": "file:./phyjs",
-    "shelljs": "^0.8.3",
     "webppl": "^0.9.15",
     "webppl-json": "github:jtklein/webppl-json"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
   },
   "webppl": {
     "wppl": [
       "models/crbd.wppl",
       "models/crbd-analytical-complete-sampling.wppl"
     ]
-  },
-  "devDependencies": {
-    "prettier": "2.2.1"
   }
 }
