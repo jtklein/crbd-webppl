@@ -16,7 +16,7 @@ var model = function () {
   var lambda = exponential({ a: 1 });
   var epsilon = uniform({ a: 0.0, b: 1.0 });
   var mu = epsilon * lambda;
-  var rho = 0.1;
+  var rho = 0.59;
 
   // Simulate conditionally on the tree
   // It returns all variables of interest
