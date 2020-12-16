@@ -383,6 +383,10 @@ type-check@~0.3.1, type-check@~0.3.2:
   dependencies:
     prelude-ls "~1.1.2"
 
+"webppl-json@github:jtklein/webppl-json":
+  version "0.0.1"
+  resolved "https://codeload.github.com/jtklein/webppl-json/tar.gz/e51ae3751c9fff922f4a44b115a969c12b3b97bc"
+
 webppl@^0.9.15:
   version "0.9.15"
   resolved "https://registry.yarnpkg.com/webppl/-/webppl-0.9.15.tgz#b5a0590395d6883f85b08c6a7565275fce5099c4"
