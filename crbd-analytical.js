@@ -3,7 +3,6 @@
  */
 var tree = phyjs.read_phyjson('bombac.phyjson');
 phyjs.print_tree(tree);
-tree;
 
 /**
  * Model specification
@@ -18,11 +17,11 @@ var model = function () {
   return [lambda, mu];
 };
 
-var dist = Infer({ model, method: 'MCMC', samples: 1000, lag: 10, burn: 1000 });
 /**
  * Inference
  * The length parameters of the MCMC chain can be changed here
  */
+var dist = Infer({ model, method: 'MCMC', samples: 10000, lag: 10, burn: 1000 });
 display(dist);
 
 /**
