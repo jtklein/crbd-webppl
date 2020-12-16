@@ -1,7 +1,13 @@
+/**
+ * Load the tree file
+ */
 var tree = phyjs.read_phyjson('bombac.phyjson');
 phyjs.print_tree(tree);
 tree;
 
+/**
+ * Model specification
+ */
 var model = function () {
   var lambda = exponential({ a: 1 });
   var epsilon = uniform({ a: 0.0, b: 1.0 });
@@ -13,8 +19,15 @@ var model = function () {
 };
 
 var dist = Infer({ model, method: 'MCMC', samples: 1000, lag: 10, burn: 1000 });
+/**
+ * Inference
+ * The length parameters of the MCMC chain can be changed here
+ */
 display(dist);
 
+/**
+ * Extract and display the values for lambda and mu from the inference results
+ */
 var lambdaExtractor = function (x) {
   return x.value[0];
 };
