@@ -1,6 +1,12 @@
 # crbd-webppl
 Probabilistic programme to use a constant rate birth death model on a given phylogenetic tree
 
+# To calculate
+Run:
+```
+yarn start
+```
+
 # Tree dataset from
 Transitions between biomes are common and directional in Bombacoideae (Malvaceae)
  Zizka, Alexander;  Carvalho-Sobrinho, Jefferson;  Pennington, Toby R.; Queiroz, Luciano; Alcantara, Suzana; Baum, David;  Bacon, Christine D.;  Antonelli, Alexandre

@@ -4,7 +4,7 @@
   "description": "Probabilistic programme to use a constant rate birth death model on a given phylogenetic tree",
   "main": "index.js",
   "scripts": {
-    "start": "webppl crbd.wppl --require phyjs",
+    "start": "yarn webppl crbd.js --require . --require phyjs --require webppl-json",
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,9 @@
   },
   "homepage": "https://github.com/jtklein/crbd-webppl#readme",
   "dependencies": {
-    "webppl": "^0.9.15",
     "phyjs": "file:./phyjs",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.3",
+    "webppl": "^0.9.15",
+    "webppl-json": "github:jtklein/webppl-json"
   }
 }
