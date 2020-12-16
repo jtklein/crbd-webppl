@@ -1,10 +1,15 @@
 # crbd-webppl
-Probabilistic programme to use a constant rate birth death model on a given phylogenetic tree
+Probabilistic programme to calculate speciation and extinction rate using a constant rate birth death model on a given phylogenetic tree
 
 # To calculate
-Run:
+To calculate the parameters with a quick analytical approach:
 ```
 yarn start
+```
+
+To calculate the parameters with a more exhaustive simulation approach:
+```
+yarn start-sim
 ```
 
 # CRBD model from
