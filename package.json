@@ -25,5 +25,10 @@
     "shelljs": "^0.8.3",
     "webppl": "^0.9.15",
     "webppl-json": "github:jtklein/webppl-json"
+  },
+  "webppl": {
+    "wppl": [
+      "models/crbd-analytical-complete-sampling.wppl"
+    ]
   }
 }
