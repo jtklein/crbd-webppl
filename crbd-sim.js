@@ -35,7 +35,7 @@ var model = function () {
  */
 var particles = 10000;
 var dist = Infer({ method: 'SMC', particles: particles, model: model });
-display(dist);
+display(dist.samples);
 
 /**
  * Extract and display the values for lambda and mu from the inference results
@@ -65,4 +65,5 @@ display('mu:');
 displayValues(muSamples);
 
 // Write data:
-json.write('calc.json', dist.samples);
+json.write('lambdaSamples.json', lambdaSamples);
+json.write('muSamples.json', muSamples);

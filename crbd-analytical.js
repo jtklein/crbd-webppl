@@ -22,7 +22,7 @@ var model = function () {
  * The length parameters of the MCMC chain can be changed here
  */
 var dist = Infer({ model, method: 'MCMC', samples: 10000, lag: 10, burn: 1000 });
-display(dist);
+display(dist.samples);
 
 /**
  * Extract and display the values for lambda and mu from the inference results
@@ -52,4 +52,5 @@ display('mu:');
 displayValues(muSamples);
 
 // Write data:
-json.write('calc.json', dist.samples);
+json.write('lambdaSamples.json', lambdaSamples);
+json.write('muSamples.json', muSamples);
