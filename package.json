@@ -30,5 +30,8 @@
     "wppl": [
       "models/crbd-analytical-complete-sampling.wppl"
     ]
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
   }
 }
