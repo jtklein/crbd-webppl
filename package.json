@@ -35,7 +35,9 @@
   "webppl": {
     "wppl": [
       "models/crbd.wppl",
-      "models/crbd-analytical-complete-sampling.wppl"
+      "models/crbd-analytical-complete-sampling.wppl",
+      "models/crbd-analytical.wppl",
+      "models/crbd-naive.wppl"
     ]
   }
 }
