@@ -2,7 +2,7 @@
 Probabilistic programme to calculate speciation and extinction rate using a constant rate birth death model on a given phylogenetic tree
 
 # To calculate
-To start the calculation of the parameters with a quick analytical approach:
+To start the calculation of the parameters with a quick analytical approach (assumes incomplete sampling, rho is encoded in the analysis file):
 ```
 yarn start
 ```
